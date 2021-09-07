@@ -1,0 +1,80 @@
+<html>
+	<head>
+	<title>Fashion Redefined With Virtual Grooming & Shopping Assistant</title>
+	<style>
+		.header {	
+			top:0px;	
+			margin:0px;
+			left: 0px;
+			right: 0px;
+			position: fixed;
+			background: #47e28ca6;
+			color: #050505;
+			overflow: hidden;
+			padding-bottom: 1000;
+			font-size: 3.25vw;
+			width: 100%;
+			padding-left:0px;
+			text-align: center;
+			padding-top:20px;
+		}
+		.second{
+			top:80px;
+			bottom:0px;
+			margin:0px;
+			left: 0px;
+			right: 0px;
+			position: fixed;
+			padding: 0px;
+			width: 100%;
+			background-image:url({{url_for('static',filename='images/image.gif')}}); 
+			background-repeat:no-repeat;
+			background-size: contain;
+		
+		}
+		.inside{
+			top:80px;
+			bottom:0px;
+			margin:0px;
+			left: 45%;
+			right: 0%;
+			padding-left: 40px;
+			padding-top:8%;
+			padding-right:40px;
+			background-color:#f2d19a00;
+			font-family:Georgia, serif;
+			color:black;
+			font-size:20px;
+			text-align:end;
+			
+		}
+		.myButton{
+			  border: none;
+			  text-align: center;
+			  cursor: pointer;
+			  text-transform: uppercase;
+			  outline: none;
+			  overflow: hidden;
+			  color: #fff;
+			  font-weight: 700;
+			  font-size: 12px;
+			  background-color: #ff0000;
+			  padding: 10px 15px;
+			  margin: 0 auto;
+			  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+		}
+	</style>
+	</head>
+	<body>
+		<div class="header">Fashion Redefined With Virtual Grooming & Shopping Assistant</div>
+		<div class="second">
+			<div class="inside">
+		<br><br><br><background-image:url({{url_for('static',filename='images/image.gif')}});ALIGN="left" />
+		<p>“Fashion is the armor to survive the reality of everyday life.” </p>
+		<a href="{{url_for('base')}}"><button type="button" class="myButton" >Ready to predict which type of fashion??</button></a>
+		</div>
+		
+		
+		</div>
+	</body>
+</html>
